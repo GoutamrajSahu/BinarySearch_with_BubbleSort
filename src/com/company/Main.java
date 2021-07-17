@@ -1,8 +1,8 @@
 package com.company;
 import java.util.*;
-import java.util.Arrays;
+
 class Main {
-    static boolean Search(int array[], int SearchNumber){
+    static boolean Search(int[] array, int SearchNumber){
 //        for(int i=0; i<array.length;i++){
 //            System.out.println(array[i]);
 //        }
@@ -24,7 +24,7 @@ class Main {
         return false;
     }
 
-    static int[] sortArray(int array[]){
+    static int[] sortArray(int[] array){
 
         for(int i=0; i<array.length-1;i++){
             for(int j = 0; j<array.length-i-1; j++){
